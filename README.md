@@ -1,17 +1,8 @@
-# IITM Dashboard 🚀
+# IITM Dashboard
 
 A full-stack application with a React frontend and a Node.js/Express backend.
 
-## 🛠️ Prerequisites
-
-Before you begin, ensure you have the following installed:
-* **Node.js** (v16 or higher)
-* **npm**
-* **MongoDB Compass** (for local database management)
-
----
-
-## 📥 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 Open your terminal and run:
