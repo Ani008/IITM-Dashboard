@@ -1,0 +1,42 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx prisma migrate deploy && node server.js",
+    "postinstall": "npx prisma generate",
+    "migrate": "npx prisma migrate deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ani008/DesaiEyeHospital-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ani008/DesaiEyeHospital-Backend/issues"
+  },
+  "homepage": "https://github.com/Ani008/DesaiEyeHospital-Backend#readme",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "jwt-decode": "^4.0.0",
+    "mongoose": "^9.1.5",
+    "multer": "^2.1.0",
+    "nodemailer": "^8.0.0",
+    "pdfkit": "^0.17.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
+}
